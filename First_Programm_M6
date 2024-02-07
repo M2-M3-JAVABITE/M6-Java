@@ -2,6 +2,13 @@
 
 class First_Programm_M6
 {
-
+public static void main(String []fpm)
+{
 
 }
+
+}
+
+//output:
+    1: Compile time output: SUCCESS
+    2: Runtime output:SUCCESS BUT  NO OUTPUT (NOT TASK GIVEN IN MAIN METHOD)
