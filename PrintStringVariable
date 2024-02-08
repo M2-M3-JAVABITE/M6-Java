@@ -1,0 +1,18 @@
+
+
+//Printing String variable
+class PrintStringVariable
+{
+//main method
+public static void main(String[] psv)
+{
+String name = "Rajni";
+System.out.println(name);
+System.out.println("Neha");
+}
+}
+/* Output:
+C.T:SUCCESS
+R.T:SUCCESS: -> Rajni
+                Neha
+*/
