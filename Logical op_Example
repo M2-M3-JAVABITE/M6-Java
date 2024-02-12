@@ -1,0 +1,39 @@
+
+
+
+
+class LogicalOpExample
+{
+public static  void main(String []loe)               
+{                                               
+                                           
+                   //  true    ||        true     ||      false     
+//System.out.println(true && true || true&& true || true&& false);//true
+
+//                      false    ||  true        || false
+//System.out.println(false && false|| true && true || false && false);// true 
+
+     //                 false ||       false       ||  false  //false
+//System.out.println(false && false|| false && false || true && false);
+
+        //           false     ||  falsen     
+System.out.println(true && false|| false || true || true || false);//true
+
+//System.out.println(!true);//false
+//System.out.println(!false);//true
+// AND  is  given more presidence to   excution than OR
+
+//boolean value1= true;
+//boolean value2= false;
+
+//1st way
+//System.out.println(value1 || value2);//false
+
+//2 way
+//boolean value3 =value1 && value2;
+//System.out.println(value3);
+
+}
+
+
+}
